@@ -1,0 +1,18 @@
+{
+    "name": "playwright-allure-project",
+    "version": "1.0.0",
+    "description": "Playwright automation with Allure reporting",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "report": "allure generate ./allure-results -o ./allure-report --clean && allure open ./allure-report"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.40.0",
+        "allure-commandline": "^2.25.0",
+        "allure-playwright": "^2.9.0"
+    }
+}
